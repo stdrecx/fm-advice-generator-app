@@ -1,0 +1,51 @@
+.container {
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 540px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--dark-grayish-blue);
+}
+
+.card h5 {
+  color: var(--neon-green);
+  letter-spacing: 3px;
+}
+
+.card h1 {
+  color: var(--light-cyan);
+  font-size: 1.75rem;
+}
+
+.cardContent {
+  padding: 1rem;
+}
+
+.line {
+  background-image: url("../../../images/pattern-divider-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 350px;
+  }
+  .line {
+    background-image: url("../../../images/pattern-divider-mobile.svg");
+  }
+}

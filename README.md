@@ -21,7 +21,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: (https://stdrecxoxo.github.io/fm-qr-code-component/)
+- Live Site URL: (https://gleeful-concha-d16aab.netlify.app/)
 
 ## My process
 
